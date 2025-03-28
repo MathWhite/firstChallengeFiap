@@ -15,8 +15,8 @@ document.getElementById("contactForm").addEventListener("submit", async function
     const body = { names, message };
 
     try {
-        //const response = await fetch("https://fsdt-contact.onrender.com/contact", {
-        const response = await fetch("https://eoki5cawskca7ra.m.pipedream.net", {
+        const response = await fetch("https://fsdt-contact.onrender.com/contact", {
+        //const response = await fetch("https://eoki5cawskca7ra.m.pipedream.net", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(body)
